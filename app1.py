@@ -1,4 +1,5 @@
 from langchain_community.llms import Ollama
+from langchain.llms import HuggingFaceHub
 import streamlit as st
 
 llm = Ollama(model="llama3")
